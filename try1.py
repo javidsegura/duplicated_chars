@@ -11,7 +11,6 @@ sequence = []
 for i in string:
       if i in l:
             sequence.append(i)
-
       else:
             l.append(i) 
 
