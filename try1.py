@@ -1,10 +1,11 @@
 """ I am trying to create a function that identifies the characthers that are being repeated (>2)
 in a string, and return the characther and the amount of times it has been. """
 
-
+#Get the string and eliminate the spaces 
 string = input("Send your string here: ")
 string = string.replace(" ", "")
 
+#
 l = []
 sequence = []
 
